@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB80D8E51CDA38B1003B694B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D8E41CDA38B1003B694B /* main.m */; };
+		AB80D8E81CDA38B1003B694B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D8E71CDA38B1003B694B /* AppDelegate.m */; };
+		AB80D8EB1CDA38B1003B694B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D8EA1CDA38B1003B694B /* ViewController.m */; };
+		AB80D8EE1CDA38B1003B694B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB80D8EC1CDA38B1003B694B /* Main.storyboard */; };
+		AB80D8F01CDA38B1003B694B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB80D8EF1CDA38B1003B694B /* Assets.xcassets */; };
+		AB80D8F31CDA38B1003B694B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB80D8F11CDA38B1003B694B /* LaunchScreen.storyboard */; };
+		AB80D8FE1CDA38B1003B694B /* SKVoiceButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D8FD1CDA38B1003B694B /* SKVoiceButtonTests.m */; };
+		AB80D9091CDA38B1003B694B /* SKVoiceButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D9081CDA38B1003B694B /* SKVoiceButtonUITests.m */; };
+		AB80D9221CDA3C5F003B694B /* morningexmp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB80D9211CDA3C5F003B694B /* morningexmp3.mp3 */; };
+		AB80D92C1CDA5653003B694B /* SKVoicePlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D9261CDA5653003B694B /* SKVoicePlayButton.m */; };
+		AB80D92D1CDA5653003B694B /* newplayer_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80D9281CDA5653003B694B /* newplayer_pause@2x.png */; };
+		AB80D92E1CDA5653003B694B /* newplayer_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80D9291CDA5653003B694B /* newplayer_pause@3x.png */; };
+		AB80D92F1CDA5653003B694B /* newplayer_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80D92A1CDA5653003B694B /* newplayer_play@2x.png */; };
+		AB80D9301CDA5653003B694B /* newplayer_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80D92B1CDA5653003B694B /* newplayer_play@3x.png */; };
+		AB80D9331CDA5673003B694B /* SKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB80D9321CDA5673003B694B /* SKSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB80D8FA1CDA38B1003B694B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB80D8D81CDA38B1003B694B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB80D8DF1CDA38B1003B694B;
+			remoteInfo = SKVoiceButton;
+		};
+		AB80D9051CDA38B1003B694B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB80D8D81CDA38B1003B694B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB80D8DF1CDA38B1003B694B;
+			remoteInfo = SKVoiceButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB80D8E01CDA38B1003B694B /* SKVoiceButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKVoiceButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB80D8E41CDA38B1003B694B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB80D8E61CDA38B1003B694B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB80D8E71CDA38B1003B694B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB80D8E91CDA38B1003B694B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB80D8EA1CDA38B1003B694B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB80D8ED1CDA38B1003B694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB80D8EF1CDA38B1003B694B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB80D8F21CDA38B1003B694B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB80D8F41CDA38B1003B694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB80D8F91CDA38B1003B694B /* SKVoiceButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKVoiceButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB80D8FD1CDA38B1003B694B /* SKVoiceButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVoiceButtonTests.m; sourceTree = "<group>"; };
+		AB80D8FF1CDA38B1003B694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB80D9041CDA38B1003B694B /* SKVoiceButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKVoiceButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB80D9081CDA38B1003B694B /* SKVoiceButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVoiceButtonUITests.m; sourceTree = "<group>"; };
+		AB80D90A1CDA38B1003B694B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB80D9211CDA3C5F003B694B /* morningexmp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morningexmp3.mp3; sourceTree = "<group>"; };
+		AB80D9251CDA5653003B694B /* SKVoicePlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVoicePlayButton.h; sourceTree = "<group>"; };
+		AB80D9261CDA5653003B694B /* SKVoicePlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVoicePlayButton.m; sourceTree = "<group>"; };
+		AB80D9281CDA5653003B694B /* newplayer_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newplayer_pause@2x.png"; sourceTree = "<group>"; };
+		AB80D9291CDA5653003B694B /* newplayer_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newplayer_pause@3x.png"; sourceTree = "<group>"; };
+		AB80D92A1CDA5653003B694B /* newplayer_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newplayer_play@2x.png"; sourceTree = "<group>"; };
+		AB80D92B1CDA5653003B694B /* newplayer_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newplayer_play@3x.png"; sourceTree = "<group>"; };
+		AB80D9311CDA5673003B694B /* SKSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSecondViewController.h; sourceTree = "<group>"; };
+		AB80D9321CDA5673003B694B /* SKSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB80D8DD1CDA38B1003B694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D8F61CDA38B1003B694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D9011CDA38B1003B694B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB80D8D71CDA38B1003B694B = {
+			isa = PBXGroup;
+			children = (
+				AB80D8E21CDA38B1003B694B /* SKVoiceButton */,
+				AB80D8FC1CDA38B1003B694B /* SKVoiceButtonTests */,
+				AB80D9071CDA38B1003B694B /* SKVoiceButtonUITests */,
+				AB80D8E11CDA38B1003B694B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB80D8E11CDA38B1003B694B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D8E01CDA38B1003B694B /* SKVoiceButton.app */,
+				AB80D8F91CDA38B1003B694B /* SKVoiceButtonTests.xctest */,
+				AB80D9041CDA38B1003B694B /* SKVoiceButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB80D8E21CDA38B1003B694B /* SKVoiceButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D9231CDA5653003B694B /* SKVoicePlayButton */,
+				AB80D8E61CDA38B1003B694B /* AppDelegate.h */,
+				AB80D8E71CDA38B1003B694B /* AppDelegate.m */,
+				AB80D8E91CDA38B1003B694B /* ViewController.h */,
+				AB80D8EA1CDA38B1003B694B /* ViewController.m */,
+				AB80D9311CDA5673003B694B /* SKSecondViewController.h */,
+				AB80D9321CDA5673003B694B /* SKSecondViewController.m */,
+				AB80D9211CDA3C5F003B694B /* morningexmp3.mp3 */,
+				AB80D8EC1CDA38B1003B694B /* Main.storyboard */,
+				AB80D8EF1CDA38B1003B694B /* Assets.xcassets */,
+				AB80D8F11CDA38B1003B694B /* LaunchScreen.storyboard */,
+				AB80D8F41CDA38B1003B694B /* Info.plist */,
+				AB80D8E31CDA38B1003B694B /* Supporting Files */,
+			);
+			path = SKVoiceButton;
+			sourceTree = "<group>";
+		};
+		AB80D8E31CDA38B1003B694B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D8E41CDA38B1003B694B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB80D8FC1CDA38B1003B694B /* SKVoiceButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D8FD1CDA38B1003B694B /* SKVoiceButtonTests.m */,
+				AB80D8FF1CDA38B1003B694B /* Info.plist */,
+			);
+			path = SKVoiceButtonTests;
+			sourceTree = "<group>";
+		};
+		AB80D9071CDA38B1003B694B /* SKVoiceButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D9081CDA38B1003B694B /* SKVoiceButtonUITests.m */,
+				AB80D90A1CDA38B1003B694B /* Info.plist */,
+			);
+			path = SKVoiceButtonUITests;
+			sourceTree = "<group>";
+		};
+		AB80D9231CDA5653003B694B /* SKVoicePlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D9241CDA5653003B694B /* SKClass */,
+				AB80D9271CDA5653003B694B /* SKImages */,
+			);
+			path = SKVoicePlayButton;
+			sourceTree = "<group>";
+		};
+		AB80D9241CDA5653003B694B /* SKClass */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D9251CDA5653003B694B /* SKVoicePlayButton.h */,
+				AB80D9261CDA5653003B694B /* SKVoicePlayButton.m */,
+			);
+			path = SKClass;
+			sourceTree = "<group>";
+		};
+		AB80D9271CDA5653003B694B /* SKImages */ = {
+			isa = PBXGroup;
+			children = (
+				AB80D9281CDA5653003B694B /* newplayer_pause@2x.png */,
+				AB80D9291CDA5653003B694B /* newplayer_pause@3x.png */,
+				AB80D92A1CDA5653003B694B /* newplayer_play@2x.png */,
+				AB80D92B1CDA5653003B694B /* newplayer_play@3x.png */,
+			);
+			path = SKImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB80D8DF1CDA38B1003B694B /* SKVoiceButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB80D90D1CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButton" */;
+			buildPhases = (
+				AB80D8DC1CDA38B1003B694B /* Sources */,
+				AB80D8DD1CDA38B1003B694B /* Frameworks */,
+				AB80D8DE1CDA38B1003B694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKVoiceButton;
+			productName = SKVoiceButton;
+			productReference = AB80D8E01CDA38B1003B694B /* SKVoiceButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB80D8F81CDA38B1003B694B /* SKVoiceButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB80D9101CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButtonTests" */;
+			buildPhases = (
+				AB80D8F51CDA38B1003B694B /* Sources */,
+				AB80D8F61CDA38B1003B694B /* Frameworks */,
+				AB80D8F71CDA38B1003B694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB80D8FB1CDA38B1003B694B /* PBXTargetDependency */,
+			);
+			name = SKVoiceButtonTests;
+			productName = SKVoiceButtonTests;
+			productReference = AB80D8F91CDA38B1003B694B /* SKVoiceButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB80D9031CDA38B1003B694B /* SKVoiceButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB80D9131CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButtonUITests" */;
+			buildPhases = (
+				AB80D9001CDA38B1003B694B /* Sources */,
+				AB80D9011CDA38B1003B694B /* Frameworks */,
+				AB80D9021CDA38B1003B694B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB80D9061CDA38B1003B694B /* PBXTargetDependency */,
+			);
+			name = SKVoiceButtonUITests;
+			productName = SKVoiceButtonUITests;
+			productReference = AB80D9041CDA38B1003B694B /* SKVoiceButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB80D8D81CDA38B1003B694B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Duoqingjie;
+				TargetAttributes = {
+					AB80D8DF1CDA38B1003B694B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AB80D8F81CDA38B1003B694B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AB80D8DF1CDA38B1003B694B;
+					};
+					AB80D9031CDA38B1003B694B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AB80D8DF1CDA38B1003B694B;
+					};
+				};
+			};
+			buildConfigurationList = AB80D8DB1CDA38B1003B694B /* Build configuration list for PBXProject "SKVoiceButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB80D8D71CDA38B1003B694B;
+			productRefGroup = AB80D8E11CDA38B1003B694B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB80D8DF1CDA38B1003B694B /* SKVoiceButton */,
+				AB80D8F81CDA38B1003B694B /* SKVoiceButtonTests */,
+				AB80D9031CDA38B1003B694B /* SKVoiceButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB80D8DE1CDA38B1003B694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB80D92F1CDA5653003B694B /* newplayer_play@2x.png in Resources */,
+				AB80D8F31CDA38B1003B694B /* LaunchScreen.storyboard in Resources */,
+				AB80D8F01CDA38B1003B694B /* Assets.xcassets in Resources */,
+				AB80D92E1CDA5653003B694B /* newplayer_pause@3x.png in Resources */,
+				AB80D92D1CDA5653003B694B /* newplayer_pause@2x.png in Resources */,
+				AB80D8EE1CDA38B1003B694B /* Main.storyboard in Resources */,
+				AB80D9221CDA3C5F003B694B /* morningexmp3.mp3 in Resources */,
+				AB80D9301CDA5653003B694B /* newplayer_play@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D8F71CDA38B1003B694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D9021CDA38B1003B694B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB80D8DC1CDA38B1003B694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB80D92C1CDA5653003B694B /* SKVoicePlayButton.m in Sources */,
+				AB80D9331CDA5673003B694B /* SKSecondViewController.m in Sources */,
+				AB80D8EB1CDA38B1003B694B /* ViewController.m in Sources */,
+				AB80D8E81CDA38B1003B694B /* AppDelegate.m in Sources */,
+				AB80D8E51CDA38B1003B694B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D8F51CDA38B1003B694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB80D8FE1CDA38B1003B694B /* SKVoiceButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80D9001CDA38B1003B694B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB80D9091CDA38B1003B694B /* SKVoiceButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB80D8FB1CDA38B1003B694B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB80D8DF1CDA38B1003B694B /* SKVoiceButton */;
+			targetProxy = AB80D8FA1CDA38B1003B694B /* PBXContainerItemProxy */;
+		};
+		AB80D9061CDA38B1003B694B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB80D8DF1CDA38B1003B694B /* SKVoiceButton */;
+			targetProxy = AB80D9051CDA38B1003B694B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB80D8EC1CDA38B1003B694B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB80D8ED1CDA38B1003B694B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB80D8F11CDA38B1003B694B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB80D8F21CDA38B1003B694B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB80D90B1CDA38B1003B694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB80D90C1CDA38B1003B694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB80D90E1CDA38B1003B694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKVoiceButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB80D90F1CDA38B1003B694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKVoiceButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB80D9111CDA38B1003B694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKVoiceButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKVoiceButton.app/SKVoiceButton";
+			};
+			name = Debug;
+		};
+		AB80D9121CDA38B1003B694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKVoiceButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKVoiceButton.app/SKVoiceButton";
+			};
+			name = Release;
+		};
+		AB80D9141CDA38B1003B694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKVoiceButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKVoiceButton;
+			};
+			name = Debug;
+		};
+		AB80D9151CDA38B1003B694B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKVoiceButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UISKE.SKVoiceButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKVoiceButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB80D8DB1CDA38B1003B694B /* Build configuration list for PBXProject "SKVoiceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80D90B1CDA38B1003B694B /* Debug */,
+				AB80D90C1CDA38B1003B694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB80D90D1CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80D90E1CDA38B1003B694B /* Debug */,
+				AB80D90F1CDA38B1003B694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB80D9101CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80D9111CDA38B1003B694B /* Debug */,
+				AB80D9121CDA38B1003B694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB80D9131CDA38B1003B694B /* Build configuration list for PBXNativeTarget "SKVoiceButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB80D9141CDA38B1003B694B /* Debug */,
+				AB80D9151CDA38B1003B694B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB80D8D81CDA38B1003B694B /* Project object */;
+}
