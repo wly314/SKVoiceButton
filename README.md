@@ -1,5 +1,5 @@
 ## SKVoiceButton
-![Alt text](/Users/anakin/Desktop/Simulator Screen Shot 2016年5月27日 下午4.23.02.png "Optional title")
+![Alt text](https://github.com/wly314/SKVoiceButton/blob/master/ReadMeImage/Simulator%20Screen%20Shot%202016年5月27日%20下午4.23.02.png "Optional title")
 Voice 音频播放按钮，计时
 ## SKVoicePlayButton
 ### 使用方法
