@@ -38,7 +38,7 @@
     [_defaultPlayer prepareToPlay];
     
     
-    /*
+    /**
      *  使用方法
      */
     SKVoicePlayButton *oVoicePlayButton = [[SKVoicePlayButton alloc] initWithFrame:CGRectMake(20, 100, 100, 40) handler:^(id obj, NSInteger currentTime) {
